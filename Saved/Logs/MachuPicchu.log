@@ -230,3 +230,126 @@ LogInit: Object subsystem initialized
 [2017.06.28-19.18.14:488][ 92]LogSavePackage: Save=49.57ms
 [2017.06.28-19.18.14:488][ 92]LogSavePackage: Moving '../../../../../../Users/pierre/Desktop/git/1/Saved/NewMapCED8EF024FE51DC711A77EA05B28B043.tmp' to '../../../../../../Users/pierre/Desktop/git/1/Content/Maps/NewMap.umap'
 [2017.06.28-19.18.14:496][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pierre/Desktop/git/1/Content/Maps/NewMap.umap
+[2017.06.28-19.28.06:901][182]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/UNREAL/MODELISATION/BATIMENTS/ESCALIER/COLIMACON/ESCALIER.fbx)
+[2017.06.28-19.28.06:919][182]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.28-19.28.06:919][182]LogFbx: ItemName: Model, ItemCount : 5
+[2017.06.28-19.28.06:919][182]LogFbx: ItemName: NodeAttribute, ItemCount : 3
+[2017.06.28-19.28.06:919][182]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.28-19.28.06:919][182]LogFbx: ItemName: Material, ItemCount : 1
+[2017.06.28-19.28.06:919][182]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.06.28-19.28.06:919][182]LogFbx: ItemName: Collection, ItemCount : 75
+[2017.06.28-19.28.06:919][182]LogFbx: ItemName: SelectionNode, ItemCount : 75
+[2017.06.28-19.28.06:919][182]LogFbx: ItemName: Video, ItemCount : 1
+[2017.06.28-19.28.06:929][182]LogFbx: Loading FBX Scene from E:/UNREAL/MODELISATION/BATIMENTS/ESCALIER/COLIMACON/ESCALIER.fbx
+[2017.06.28-19.28.06:949][182]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.28-19.28.43:470][182]LogFbx: Loading FBX Scene from E:/UNREAL/MODELISATION/BATIMENTS/ESCALIER/COLIMACON/ESCALIER.fbx
+[2017.06.28-19.28.43:492][182]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.28-19.28.43:497][182]LogLinker: Can't find file '/Game/Maps/decor/escaier/ImportedSWMaterial__FTR_defaultplastic'
+[2017.06.28-19.28.43:498][182]LogLinker: Can't find file '/Game/Maps/decor/escaier/ImportedSWMaterial__FTR_defaultplastic'
+[2017.06.28-19.28.43:503][182]LogLinker: Can't find file '/Game/Maps/decor/escaier/diffColor_1'
+[2017.06.28-19.28.43:503][182]LogLinker: Can't find file '/Game/Maps/decor/escaier/diffColor_1'
+[2017.06.28-19.28.43:838][182]LogTexture:Display: Building textures: diffColor_1 (AutoDXT, 2048X2048)
+[2017.06.28-19.28.44:954][182]LogMaterial: Missing cached shader map for material ImportedSWMaterial__FTR_defaultplastic, compiling. 
+[2017.06.28-19.28.45:055][182]LogStaticMesh: Building static mesh ESCALIER...
+[2017.06.28-19.28.45:066][182]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.06.28-19.28.45:128][182]LogStaticMesh: Built static mesh [0.07s] /Game/Maps/decor/escaier/ESCALIER.ESCALIER
+[2017.06.28-19.28.45:130][182]LogSlate: Took 0.000627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.28-19.28.50:589][301]LogActorFactory: Actor Factory created ESCALIER
+[2017.06.28-19.28.51:455][336]LogActorFactory: Actor Factory created ESCALIER
+[2017.06.28-19.28.56:913][502]LogSlate: Took 0.000541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.28-19.29.11:785][  1]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.28-19.29.13:468][ 78]MapCheck: New page: Map Check
+[2017.06.28-19.29.13:498][ 78]Cmd: MAP REBUILD ALLVISIBLE
+[2017.06.28-19.29.13:499][ 78]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.06.28-19.29.13:839][ 78]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.06.28-19.29.13:857][ 78]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.06.28-19.29.13:869][ 78]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.06.28-19.29.13:884][ 78]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.06.28-19.29.13:900][ 78]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ImportedSWMaterial__FTR_defaultplastic, compiling. 
+[2017.06.28-19.29.15:388][ 78]TextureStreamingBuild:Display: Compiling optional shaders took 1.564 seconds.
+[2017.06.28-19.29.15:403][ 78]LogLevel:Display: Export Material TexCoord Scales took 0.015 seconds.
+[2017.06.28-19.29.15:410][ 78]TextureStreamingBuild:Display: Build Texture Streaming took 0.006 seconds.
+[2017.06.28-19.29.15:446][ 78]LightingResults: New page: Lighting Build - Jun 28, 2017, 11:29:15 PM
+[2017.06.28-19.29.15:586][ 78]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.28-19.29.15:693][ 78]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.28-19.29.15:718][ 78]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.28-19.29.16:801][ 78]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.28-19.29.16:801][ 78]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20128
+[2017.06.28-19.29.20:353][ 78]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.06.28-19.29.20:353][ 78]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.28-19.29.20:353][ 78]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.28-19.29.20:353][ 78]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.28-19.29.20:353][ 78]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.28-19.29.20:353][ 78]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.28-19.29.20:876][ 78]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.06.28-19.29.20:876][ 78]MapCheck: New page: NewMap - Jun 28, 2017, 11:29:20 PM
+[2017.06.28-19.29.20:877][ 78]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.06.28-19.29.21:144][ 78]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 268.278ms to complete.
+[2017.06.28-19.29.21:166][ 78]LogEditorBuildUtils: Build time 0:07
+[2017.06.28-19.29.21:200][ 78]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2017.06.28-19.29.21:215][ 78]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2017.06.28-19.29.21:631][ 80]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2017.06.28-19.29.21:655][ 80]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2017.06.28-19.29.21:722][ 81]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ImportedSWMaterial__FTR_defaultplastic, compiling. 
+[2017.06.28-19.29.21:745][ 81]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ImportedSWMaterial__FTR_defaultplastic, compiling. 
+[2017.06.28-19.29.26:225][120]LightingResults:Warning: Warning ESCALIER Object has overlapping UVs.
+[2017.06.28-19.29.26:225][120]LightingResults: Info ESCALIER Lightmap UV are overlapping by 80.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.28-19.29.26:300][123]Job is a success!
+[2017.06.28-19.29.26:427][124]LogMaterial:Warning: Material /Game/Maps/decor/escaier/ImportedSWMaterial__FTR_defaultplastic.ImportedSWMaterial__FTR_defaultplastic needed to have new flag set bUsedWithStaticLighting !
+[2017.06.28-19.29.26:432][124]LogMaterial: Missing cached shader map for material ImportedSWMaterial__FTR_defaultplastic, compiling. 
+[2017.06.28-19.29.26:780][124]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.06.28-19.29.26:780][124]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.06.28-19.29.26:780][124]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.06.28-19.29.26:780][124]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.06.28-19.29.26:780][124]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 256X128)
+[2017.06.28-19.29.26:780][124]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.06.28-19.29.27:223][124]LogStaticLightingSystem: Illumination: 11.6 sec (166 ms encoding lightmaps, 65 ms encoding shadowmaps)
+[2017.06.28-19.29.27:223][124]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.06.28-19.29.27:223][124]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.06.28-19.29.27:352][124]DumpUnbuiltLightIteractions
+[2017.06.28-19.29.27:352][124]Lights with unbuilt interactions: 0
+[2017.06.28-19.29.27:352][124]
+[2017.06.28-19.29.27:352][124]Primitives with unbuilt interactions: 0
+[2017.06.28-19.29.27:410][125]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.28-19.29.27:410][125]MapCheck: New page: NewMap - Jun 28, 2017, 11:29:27 PM
+[2017.06.28-19.29.27:913][125]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 503.091ms to complete.
+[2017.06.28-19.29.42:828][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Users/pierre/Desktop/git/1/Saved/Autosaves/Game/Maps/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.06.28-19.29.42:886][654]LogSavePackage: Save=48.54ms
+[2017.06.28-19.29.42:886][654]LogSavePackage: Moving '../../../../../../Users/pierre/Desktop/git/1/Saved/NewMap_Auto10D4A1EE949589EE914E84780495CDE98.tmp' to '../../../../../../Users/pierre/Desktop/git/1/Saved/Autosaves/Game/Maps/NewMap_Auto1.umap'
+[2017.06.28-19.29.42:888][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pierre/Desktop/git/1/Saved/Autosaves/Game/Maps/NewMap_Auto1.umap
+[2017.06.28-19.29.42:892][654]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.109
+[2017.06.28-19.29.42:892][654]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.109
+[2017.06.28-19.29.42:898][654]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/decor/escaier/ESCALIER] ([1] browsable assets)...
+[2017.06.28-19.29.42:939][654]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/decor/escaier/ESCALIER.ESCALIER]
+[2017.06.28-19.29.42:939][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/decor/escaier/ESCALIER]
+[2017.06.28-19.29.42:964][654]LogSavePackage: Save=21.42ms
+[2017.06.28-19.29.42:964][654]LogSavePackage: Moving '../../../../../../Users/pierre/Desktop/git/1/Saved/ESCALIER_Auto19C2D6D6944955A56B0B44288428F28C7.tmp' to '../../../../../../Users/pierre/Desktop/git/1/Saved/Autosaves/Game/Maps/decor/escaier/ESCALIER_Auto1.uasset'
+[2017.06.28-19.29.42:968][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pierre/Desktop/git/1/Saved/Autosaves/Game/Maps/decor/escaier/ESCALIER_Auto1.uasset
+[2017.06.28-19.29.42:971][654]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/decor/escaier/ImportedSWMaterial__FTR_defaultplastic] ([1] browsable assets)...
+[2017.06.28-19.29.43:008][654]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Maps/decor/escaier/ImportedSWMaterial__FTR_defaultplastic.ImportedSWMaterial__FTR_defaultplastic]
+[2017.06.28-19.29.43:008][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/decor/escaier/ImportedSWMaterial__FTR_defaultplastic]
+[2017.06.28-19.29.43:038][654]LogSavePackage: Save=26.45ms
+[2017.06.28-19.29.43:038][654]LogSavePackage: Moving '../../../../../../Users/pierre/Desktop/git/1/Saved/ImportedSWMaterial__FTR_defaultplastic_Auto11B9AF9D743A7D343F6EB8DB491F25FB8.tmp' to '../../../../../../Users/pierre/Desktop/git/1/Saved/Autosaves/Game/Maps/decor/escaier/ImportedSWMaterial__FTR_defaultplastic_Auto1.uasset'
+[2017.06.28-19.29.43:046][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pierre/Desktop/git/1/Saved/Autosaves/Game/Maps/decor/escaier/ImportedSWMaterial__FTR_defaultplastic_Auto1.uasset
+[2017.06.28-19.29.43:049][654]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/decor/escaier/diffColor_1] ([1] browsable assets)...
+[2017.06.28-19.29.43:064][654]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Maps/decor/escaier/diffColor_1.diffColor_1]
+[2017.06.28-19.29.43:064][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/decor/escaier/diffColor_1]
+[2017.06.28-19.29.43:085][654]LogSavePackage: Save=18.23ms
+[2017.06.28-19.29.43:085][654]LogSavePackage: Moving '../../../../../../Users/pierre/Desktop/git/1/Saved/diffColor_1_Auto13388E1A143B4ED2726AC769E4BA6749F.tmp' to '../../../../../../Users/pierre/Desktop/git/1/Saved/Autosaves/Game/Maps/decor/escaier/diffColor_1_Auto1.uasset'
+[2017.06.28-19.29.43:089][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pierre/Desktop/git/1/Saved/Autosaves/Game/Maps/decor/escaier/diffColor_1_Auto1.uasset
+[2017.06.28-19.29.43:092][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/NewMap_BuiltData] ([1] browsable assets)...
+[2017.06.28-19.29.43:093][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/NewMap_BuiltData]
+[2017.06.28-19.29.43:093][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Users/pierre/Desktop/git/1/Saved/Autosaves/Game/Maps/NewMap_BuiltData_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.06.28-19.29.43:108][654]LogSavePackage: Save=11.34ms
+[2017.06.28-19.29.43:108][654]LogSavePackage: Moving '../../../../../../Users/pierre/Desktop/git/1/Saved/NewMap_BuiltData_Auto1A880293E453278426E2698BA7E840218.tmp' to '../../../../../../Users/pierre/Desktop/git/1/Saved/Autosaves/Game/Maps/NewMap_BuiltData_Auto1.uasset'
+[2017.06.28-19.29.43:112][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pierre/Desktop/git/1/Saved/Autosaves/Game/Maps/NewMap_BuiltData_Auto1.uasset
+[2017.06.28-19.29.43:112][654]LogFileHelpers: Auto-saving content packages took 0.217
+[2017.06.28-19.29.55:700][235]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.28-19.29.56:712][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Users/pierre/Desktop/git/1/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.28-19.29.56:800][284]LogSavePackage: Save=47.72ms
+[2017.06.28-19.29.56:800][284]LogSavePackage: Moving '../../../../../../Users/pierre/Desktop/git/1/Saved/NewMap0580483A4EEA73A528D2799E7169D112.tmp' to '../../../../../../Users/pierre/Desktop/git/1/Content/Maps/NewMap.umap'
+[2017.06.28-19.29.56:808][284]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pierre/Desktop/git/1/Content/Maps/NewMap.umap
+[2017.06.28-19.29.56:897][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Users/pierre/Desktop/git/1/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.06.28-19.29.56:962][284]LogSavePackage: Save=59.52ms
+[2017.06.28-19.29.56:962][284]LogSavePackage: Moving '../../../../../../Users/pierre/Desktop/git/1/Saved/NewMap_BuiltDataE1586367401CDDE4D9CDAE9A180EBD5A.tmp' to '../../../../../../Users/pierre/Desktop/git/1/Content/Maps/NewMap_BuiltData.uasset'
+[2017.06.28-19.29.56:968][284]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pierre/Desktop/git/1/Content/Maps/NewMap_BuiltData.uasset
